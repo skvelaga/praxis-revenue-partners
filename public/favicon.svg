@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Navy rounded square (matches design primary color) -->
+  <rect width="64" height="64" rx="12" fill="#041632"/>
+
+  <!-- Monogram "P" — built from primitives so it renders identically regardless of system fonts -->
+  <!-- Stem -->
+  <rect x="17" y="14" width="10" height="36" fill="#ffffff"/>
+  <!-- Bowl outer (D-shape) -->
+  <path d="M 27 14 L 35 14 A 12 12 0 0 1 35 38 L 27 38 Z" fill="#ffffff"/>
+  <!-- Bowl inner counter (creates the hole) -->
+  <ellipse cx="31" cy="26" rx="3.5" ry="6" fill="#041632"/>
+
+  <!-- Sage-green growth dot — nod to the "+22% revenue lift" promise -->
+  <circle cx="50" cy="14" r="5" fill="#769471"/>
+</svg>
