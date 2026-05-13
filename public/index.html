@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Praxis Revenue Partners | Managed Billing for Independent Practices</title>
+<meta name="description" content="Full-service revenue cycle management for small group and independent medical practices. Reduce overhead, eliminate billing errors, and accelerate cash flow."/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-secondary": "#ffffff","tertiary": "#241300","on-tertiary-fixed": "#2a1800",
+          "secondary-fixed": "#cbebc3","on-error": "#ffffff","on-tertiary": "#ffffff",
+          "primary-fixed-dim": "#b7c7eb","on-primary-fixed": "#091b37","background": "#faf9f8",
+          "tertiary-container": "#3f2600","outline-variant": "#c5c6ce","on-secondary-container": "#4d6a4a",
+          "surface-container-low": "#f4f3f2","outline": "#75777e","inverse-surface": "#2f3130",
+          "surface-container": "#eeeeed","on-primary-fixed-variant": "#374765","on-tertiary-fixed-variant": "#643f00",
+          "tertiary-fixed-dim": "#f6bc6f","on-primary-container": "#8393b5","on-surface": "#1a1c1c",
+          "on-tertiary-container": "#bd8942","surface-bright": "#faf9f8","error-container": "#ffdad6",
+          "surface-tint": "#4f5e7e","surface": "#faf9f8","on-secondary-fixed": "#062108",
+          "secondary": "#496546","on-surface-variant": "#44474d","tertiary-fixed": "#ffddb6",
+          "on-primary": "#ffffff","on-background": "#1a1c1c","surface-variant": "#e3e2e1",
+          "surface-container-lowest": "#ffffff","inverse-on-surface": "#f1f0f0","primary-container": "#1b2b48",
+          "surface-dim": "#dadad9","inverse-primary": "#b7c7eb","primary-fixed": "#d7e2ff",
+          "secondary-fixed-dim": "#afcfa9","primary": "#041632","surface-container-high": "#e9e8e7",
+          "secondary-container": "#c8e9c1","error": "#ba1a1a","on-error-container": "#93000a",
+          "surface-container-highest": "#e3e2e1","on-secondary-fixed-variant": "#324d30"
+        },
+        "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+        "spacing": { "container-max": "1280px", "margin-desktop": "48px", "base": "8px", "margin-mobile": "16px", "gutter": "24px" },
+        "fontFamily": {
+          "headline-md": ["Plus Jakarta Sans"],"headline-lg-mobile": ["Plus Jakarta Sans"],
+          "display-lg": ["Plus Jakarta Sans"],"body-md": ["Inter"],"body-lg": ["Inter"],
+          "headline-lg": ["Plus Jakarta Sans"],"label-sm": ["Inter"],"label-md": ["Inter"]
+        },
+        "fontSize": {
+          "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+          "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
+          "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+          "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+          "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+          "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+          "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "600"}],
+          "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500"}]
+        }
+      },
+    },
+  }
+</script>
+<style>
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+  body { background-color: #faf9f8; color: #1a1c1c; }
+</style>
+</head>
+<body class="font-body-md text-body-md antialiased">
+
+<!-- TopAppBar -->
+<header class="bg-surface/80 backdrop-blur-md shadow-sm top-0 sticky z-50">
+  <nav class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+    <a href="/" class="text-headline-md font-headline-md font-bold text-primary">Praxis Revenue Partners</a>
+    <div class="hidden md:flex items-center gap-8">
+      <a class="text-primary font-bold border-b-2 border-secondary hover:text-secondary transition-colors duration-200 text-label-md font-label-md" href="/">Home</a>
+      <a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200 text-label-md font-label-md" href="/how-it-works.html">How It Works</a>
+      <a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200 text-label-md font-label-md" href="/services.html">Services</a>
+      <a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200 text-label-md font-label-md" href="#contact">Contact</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <a href="#contact" class="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-label-md text-label-md hover:opacity-90 active:scale-95 transition-all">Schedule Audit</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero Section -->
+  <section class="relative pt-24 pb-32 px-margin-desktop max-w-container-max mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+      <div class="md:col-span-6 space-y-8">
+        <span class="inline-flex items-center gap-2 px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full text-label-sm font-label-sm">
+          <span class="material-symbols-outlined text-[16px]">verified</span>
+          Partnered with independent practices nationwide
+        </span>
+        <h1 class="text-display-lg font-display-lg text-primary">
+          You practice medicine. <br/>
+          <span class="text-secondary">We'll handle the billing.</span>
+        </h1>
+        <p class="text-body-lg font-body-lg text-on-surface-variant max-w-xl">
+          A full-service revenue cycle management partner built for small group and independent practices. Reduce overhead, eliminate billing errors, and focus on patient care while we optimize your revenue.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-4">
+          <a href="#contact" class="bg-primary text-on-primary px-8 py-4 rounded-lg font-headline-md text-label-md hover:shadow-lg transition-all active:scale-95">Schedule Audit</a>
+          <a href="/how-it-works.html" class="flex items-center gap-2 px-8 py-4 rounded-lg border border-outline text-primary font-label-md hover:bg-surface-container transition-all">
+            <span class="material-symbols-outlined">play_circle</span>
+            How it Works
+          </a>
+        </div>
+      </div>
+      <div class="md:col-span-6 relative">
+        <div class="rounded-xl overflow-hidden shadow-[0_4px_20px_rgba(27,43,72,0.04)] bg-surface-container-lowest p-4">
+          <img alt="Independent Medical Practice" class="rounded-lg w-full h-[500px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCi2Z8JVUSUOcitGZAStKbraxwFtNzcRNyLmA71RIhosujK1-_URyOSyaEMULHrMAvsYcxlv-rY3MTBWEhoUiyq1UK6JW7uydNXQVEsWe0uQZWNHSv3IwJ2cGY0q47U8pAGYHAtSyEaR5_rtmy-EzIL4yXlbrIlPBER0vclNTI4XVlD1QIBb7XCcMTn8kwCqyeuXMb589jlaiu2WgvxQZloJZCL-6N8eHWA31H7yTDFqsyapKdWwpxxaRtDQiwspdj9rggxm26NS_o"/>
+        </div>
+        <div class="absolute -bottom-8 -left-8 bg-surface-container-lowest p-6 rounded-xl shadow-xl border border-surface-variant max-w-[240px]">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="p-2 bg-secondary-container rounded-lg">
+              <span class="material-symbols-outlined text-on-secondary-container">trending_up</span>
+            </div>
+            <div>
+              <p class="text-label-sm text-on-surface-variant">Avg. Revenue Lift</p>
+              <p class="text-headline-md text-secondary">+22%</p>
+            </div>
+          </div>
+          <div class="h-1.5 w-full bg-surface-variant rounded-full overflow-hidden">
+            <div class="h-full bg-secondary w-3/4 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EHR-Agnostic Integration -->
+  <section class="bg-surface-container-low py-20 px-margin-desktop">
+    <div class="max-w-container-max mx-auto text-center space-y-4">
+      <p class="text-label-md font-label-md text-secondary uppercase tracking-widest">Seamless Integration</p>
+      <h2 class="text-headline-lg font-headline-lg text-primary">Works with Your Existing EHR</h2>
+      <p class="text-body-md text-on-surface-variant max-w-2xl mx-auto">
+        We're EHR-agnostic — Epic, Cerner, AthenaHealth, eClinicalWorks, NextGen, Practice Fusion, Kareo, and more. Our team meets your practice in the tools you already use, with zero workflow disruption.
+      </p>
+      <div class="pt-10 flex flex-wrap justify-center items-center gap-x-12 gap-y-6 text-on-surface-variant">
+        <span class="text-label-md font-bold opacity-70">Epic</span>
+        <span class="text-label-md font-bold opacity-70">Cerner</span>
+        <span class="text-label-md font-bold opacity-70">AthenaHealth</span>
+        <span class="text-label-md font-bold opacity-70">eClinicalWorks</span>
+        <span class="text-label-md font-bold opacity-70">NextGen</span>
+        <span class="text-label-md font-bold opacity-70">Kareo</span>
+        <span class="text-label-md font-bold opacity-70">Practice Fusion</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Props (Bento Grid) -->
+  <section class="py-32 px-margin-desktop max-w-container-max mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="md:col-span-2 bg-primary-container rounded-xl p-10 text-on-primary relative overflow-hidden">
+        <div class="relative z-10 space-y-4">
+          <div class="p-3 bg-secondary-fixed/20 w-fit rounded-lg">
+            <span class="material-symbols-outlined text-secondary-fixed text-3xl">psychology</span>
+          </div>
+          <h3 class="text-headline-lg font-headline-lg">Managed Expertise</h3>
+          <p class="text-body-lg text-on-primary-container max-w-md">
+            Our team consists of certified medical billers with decades of experience in specialty-specific coding and insurance negotiation.
+          </p>
+          <ul class="space-y-3 pt-4">
+            <li class="flex items-center gap-3">
+              <span class="material-symbols-outlined text-secondary-fixed">check_circle</span>
+              <span class="font-medium">98% First-Pass Clean Claim Rate</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="material-symbols-outlined text-secondary-fixed">check_circle</span>
+              <span class="font-medium">Dedicated Account Manager</span>
+            </li>
+          </ul>
+        </div>
+        <div class="absolute right-0 bottom-0 opacity-10 scale-150">
+          <span class="material-symbols-outlined text-[300px]" style="font-variation-settings: 'FILL' 1;">account_balance_wallet</span>
+        </div>
+      </div>
+      <div class="bg-surface-container-highest rounded-xl p-10 space-y-4">
+        <div class="p-3 bg-primary/5 w-fit rounded-lg">
+          <span class="material-symbols-outlined text-primary text-3xl">security</span>
+        </div>
+        <h3 class="text-headline-md font-headline-md text-primary">HIPAA Compliant</h3>
+        <p class="text-body-md text-on-surface-variant">
+          Bank-level security and total HIPAA compliance. Your patient data is shielded by industry-leading protocols.
+        </p>
+      </div>
+      <div class="bg-secondary-container rounded-xl p-10 space-y-4">
+        <div class="p-3 bg-secondary/10 w-fit rounded-lg">
+          <span class="material-symbols-outlined text-secondary text-3xl">speed</span>
+        </div>
+        <h3 class="text-headline-md font-headline-md text-primary">Faster Payments</h3>
+        <p class="text-body-md text-on-surface-variant">
+          Accelerate your revenue cycle. Most practices see a 15-day reduction in Days in AR within the first quarter.
+        </p>
+      </div>
+      <div class="md:col-span-2 bg-surface-container-lowest border border-surface-variant rounded-xl p-10 flex flex-col md:flex-row items-center gap-10">
+        <div class="flex-1 space-y-4">
+          <h3 class="text-headline-lg font-headline-lg text-primary">Total Transparency</h3>
+          <p class="text-body-md text-on-surface-variant">
+            Live dashboards give you real-time visibility into your practice's financial health. No black boxes, just clear data.
+          </p>
+          <a href="/services.html" class="text-secondary font-bold flex items-center gap-1 hover:gap-2 transition-all">
+            See Services <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+        </div>
+        <div class="flex-1">
+          <img alt="Analytics Dashboard" class="rounded-lg shadow-sm border border-surface-variant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKRKHVZQPvo2u-xngVUoZB3g6ZadmPeIMURh_dRBXnOawwP0CxmEhY--_hsTaMKoOPgIPS0hfGvy1DW6bWQCUl6DSMYk1qMzEsGnq15Fo3bbbFc387jGsp5hUtkmK-PlrA7v_8jfQCGsgAduOlYRmCdGrZpRNz_Ec7Oa-c7JL3gmHWETboK6GER6vULfcJdoY8Xp0gd-CUjy6f4Ld8CFCHNY6vUJkx2GSCm4pGJIWD4dnFn_3pauy5UMeC_SoPZuBQvaVs-MiOAr4"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-primary py-32">
+    <div class="max-w-container-max mx-auto px-margin-desktop">
+      <div class="text-center mb-20 space-y-4">
+        <h2 class="text-headline-lg font-headline-lg text-on-primary">Trusted by Practice Leaders</h2>
+        <p class="text-on-primary-container max-w-xl mx-auto">See why independent practices choose Praxis Revenue Partners to manage their complex billing needs.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+        <div class="bg-primary-container p-8 rounded-xl border border-on-primary-fixed-variant">
+          <div class="flex gap-1 mb-6">
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+          </div>
+          <p class="text-body-lg text-on-primary italic mb-8">
+            "Since partnering with Praxis, our net collections increased by 14% and our staff can finally focus on patient flow instead of fighting with insurance companies. The integration was seamless."
+          </p>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full overflow-hidden bg-surface-variant">
+              <img alt="Dr. Sarah Miller" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEn5ImZPOL6P-X-ahcftsSKIv_-W3wjPTFYxuyLwZpFBV1ENjuICoB0JzxAR0C0f0pbL4VABEXv-LbEUXkbb6RoxK3EABPU8fqzuDgDd4GCkIRL3cNPRLunCIc5njbWXzTn6Rgc4bVN65v5ePi-dhizZTkIbLnmHP-dw5iOE6MmdwRBtPqKaCrwJcX7WbmcmRTc7z7w6OIOTWUjWjV3QgHmi05B_NthmzemGuglIhaDUxrzBzS7hgrk1renvoadmrKLrb9wa9Zd2E"/>
+            </div>
+            <div>
+              <p class="text-label-md font-bold text-on-primary">Dr. Sarah Miller</p>
+              <p class="text-label-sm text-on-primary-container">Managing Partner, Riverview Pediatrics</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-primary-container p-8 rounded-xl border border-on-primary-fixed-variant">
+          <div class="flex gap-1 mb-6">
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+            <span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">star</span>
+          </div>
+          <p class="text-body-lg text-on-primary italic mb-8">
+            "The transparency they provide is unmatched. I can see exactly where every dollar is at any time. Their team is an extension of my own practice."
+          </p>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full overflow-hidden bg-surface-variant">
+              <img alt="Marcus Thompson" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDv559hXnt3HePc88rTSEg3k0n6XPKlX0FApWXUEghrj7dleYeY31huiYW46PwD8Ul0wju9Y4DrfatVZeey2A-L-L_usTvxWKOOrH6cmkw4Q-sjxK81uip5AQYj2s8UN5Lv51uNXmr1o3Tle84CUV6llapkSUxCwR0n_2w2InjenHdvrE9br0aPpdc8ZvWJLD_CFpCQw1sPBjOz77Ayc42pi7r_i4OUWJ8YJ9s7vjqhB-44cSvJ9udg9oS7bT7ozBfC4I6_dpYWbhQ"/>
+            </div>
+            <div>
+              <p class="text-label-md font-bold text-on-primary">Marcus Thompson</p>
+              <p class="text-label-sm text-on-primary-container">Practice Administrator, City Orthopaedics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="contact" class="py-24 px-margin-desktop max-w-container-max mx-auto">
+    <div class="bg-secondary text-on-secondary rounded-xl p-16 flex flex-col items-center text-center space-y-8 shadow-xl">
+      <h2 class="text-display-lg font-display-lg max-w-2xl">Stop leaving revenue on the table.</h2>
+      <p class="text-body-lg max-w-xl opacity-90">
+        Get a free, no-obligation RCM audit. We'll analyze your last 90 days of billing and show you exactly where you can improve.
+      </p>
+      <div class="pt-4">
+        <a href="mailto:sampath.velaga@gmail.com?subject=Free%20RCM%20Audit%20Request%20%E2%80%94%20Praxis%20Revenue%20Partners" class="inline-block bg-primary text-on-primary px-12 py-5 rounded-lg font-headline-md text-headline-md hover:scale-105 transition-all shadow-lg active:scale-95">
+          Schedule Your Free Audit
+        </a>
+        <p class="text-label-sm mt-6 opacity-80">No credit card required • 15-minute introductory call</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-primary w-full py-12 border-t border-on-primary-fixed-variant/10 mt-20">
+  <div class="flex flex-col md:flex-row justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto gap-8">
+    <div class="flex flex-col items-center md:items-start gap-4">
+      <div class="text-headline-md font-headline-md font-bold text-on-primary">Praxis Revenue Partners</div>
+      <p class="text-on-primary/80 text-label-sm font-label-sm">© 2026 Praxis Revenue Partners. HIPAA Compliant.</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-8">
+      <a class="text-on-primary/80 hover:text-on-primary underline transition-all text-label-sm font-label-sm" href="#">Privacy Policy</a>
+      <a class="text-on-primary/80 hover:text-on-primary underline transition-all text-label-sm font-label-sm" href="#">Terms of Service</a>
+      <a class="text-on-primary/80 hover:text-on-primary underline transition-all text-label-sm font-label-sm" href="#">Security</a>
+      <a class="text-on-primary/80 hover:text-on-primary underline transition-all text-label-sm font-label-sm" href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
